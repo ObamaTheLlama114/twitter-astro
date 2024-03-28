@@ -8,7 +8,7 @@ export default defineConfig({
   output: "server",
   adapter: cloudflare({
     runtime: {
-      mode: "local"
+      mode: "advanced"
     }
   }),
   integrations: [tailwind()]
